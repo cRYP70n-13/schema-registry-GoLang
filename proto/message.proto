@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+option go_package = "./pkg/payload.v1";
+
+package payload.v1;
+
+message PayloadMessage {
+  int32 value = 1;
+  string firstName = 2;
+  string lastname = 3;
+  string job = 4;
+  string email = 5;
+  string description = 6;
+}
